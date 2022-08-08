@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create An Account</title>
+  </head>
+  <body>
+    <form>
+      <h1>Create An Account</h1>
+      <div>
+        <div>
+          <label for="First Name">First Name</label>
+          <input
+            required="True"
+            type="text"
+            id="FirstName"
+            placeholder="First Name"
+          />
+        </div>
+        <div>
+          <label for="Last Name">Last Name</label>
+          <input
+            required="True"
+            type="text"
+            id="LastName"
+            placeholder="Last Name"
+          />
+        </div>
+        <div>
+          <label for="Email">Email</label>
+          <input required="True" type="text" id="Email" placeholder="Email" />
+        </div>
+        <div>
+          <label for="Username">Username</label>
+          <input
+            required="True"
+            type="text"
+            id="Username"
+            placeholder="Username"
+          />
+        </div>
+        <div>
+          <label for="Password">Password</label>
+          <input
+            required="True"
+            type="password"
+            id="Password"
+            placeholder="Password"
+            minlength="10"
+          />
+        </div>
+        <div>
+          <label for="Birth Date">Birth Date</label>
+          <input required="True" type="date" id="BirthDate" />
+        </div>
+        <div>
+          <label for="happy">How happy are you?</label>
+          <input
+            required="True"
+            type="range"
+            id="happy"
+            name="happy"
+            min="0"
+            max="10"
+            value="9"
+          />
+        </div>
+        <div>
+          <label for="color">What is your fav.color?</label>
+          <input required="True" type="color" id="Color" name="color" />
+        </div>
+        <button name="button" id="button">Create Account</button>
+      </div>
+    </form>
+  </body>
+</html>
