@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  background-color: aquamarine;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.first__dot {
+  display: flex;
+  flex-direction: row;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 18px;
+  background-color: white;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.second__bar {
+  display: flex;
+  flex-direction: row;
+  width: 10px;
+  height: 35px;
+  margin: 3px;
+  background-color: white;
+}
