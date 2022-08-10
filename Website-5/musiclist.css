@@ -1,12 +1,39 @@
 .music {
   display: flex;
+  padding-top: 30px;
 }
 .musiclist__column {
   display: flex;
-  margin: 10px 0px;
+  padding: 15px 0px;
 }
 .musiclist__column__colorbox {
   display: flex;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.musiclist__column__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.musiclist__column__songname {
+  font-size: 30px;
+}
+.musiclist__column__producer {
+  color: rgba(0, 0, 0, 0.7);
+}
+.orange {
+  background-color: rgb(255, 98, 0);
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+.aqua {
+  background-color: aqua;
 }

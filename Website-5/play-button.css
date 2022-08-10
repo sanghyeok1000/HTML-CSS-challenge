@@ -11,6 +11,9 @@
   border-width: 1px 1px 5px 1px;
   border-radius: 15px;
 }
+.play-button__text {
+  font-size: 30px;
+}
 .play-button__heart {
   width: 70px;
   height: 70px;
