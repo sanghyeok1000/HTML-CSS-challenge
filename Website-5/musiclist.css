@@ -1,0 +1,12 @@
+.music {
+  display: flex;
+}
+.musiclist__column {
+  display: flex;
+  margin: 10px 0px;
+}
+.musiclist__column__colorbox {
+  display: flex;
+  width: 75px;
+  height: 75px;
+}
