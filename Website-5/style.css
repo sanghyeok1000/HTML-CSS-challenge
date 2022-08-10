@@ -1,28 +1,13 @@
+@import "playlist.css";
+
 body {
   background-color: aqua;
   margin: 0px;
 }
 .background {
   display: flex;
+  flex-direction: column;
   margin: 5px;
   height: 100vh;
   background-color: white;
-}
-.playlist {
-  display: flex;
-  margin-top: 50px;
-  width: 100%;
-}
-.playlist__column {
-  width: 33%;
-}
-.playlist__column i:first-child {
-  display: flex;
-  margin-left: 30px;
-}
-.playlist__column:nth-child(2) span {
-  display: flex;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 30px;
 }
