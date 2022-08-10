@@ -1,0 +1,22 @@
+.random-play {
+  display: flex;
+  margin-top: 30px;
+}
+.random-play__text {
+  display: flex;
+  flex-direction: column;
+}
+.random-play__play-picture {
+  width: 150px;
+  height: 150px;
+}
+.random-play__title {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.random-play__producer {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
