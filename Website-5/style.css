@@ -11,13 +11,16 @@ body {
 .playlist {
   display: flex;
   margin-top: 50px;
-  justify-content: space-between;
+  width: 100%;
 }
-.playlist i:first-child {
+.playlist__column {
+  width: 33%;
+}
+.playlist__column i:first-child {
   display: flex;
-  margin: 5px;
+  margin-left: 30px;
 }
-.playlist span:nth-child(2) {
+.playlist__column:nth-child(2) span {
   display: flex;
   justify-content: center;
   font-weight: 600;
