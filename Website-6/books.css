@@ -1,0 +1,32 @@
+.library-page__books {
+  display: flex;
+  flex-direction: row;
+}
+.library-page__books__first,
+.library-page__books__second,
+.library-page__books__third {
+  display: flex;
+  flex-direction: column;
+}
+.library-page__books__first img:first-child,
+.library-page__books__second img:first-child,
+.library-page__books__third img:first-child {
+  display: flex;
+  width: 70px;
+  height: 110px;
+  margin-right: 25px;
+}
+.library-page__books__stars {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.library-page__books__stars i:first-child,
+.library-page__books__stars i:nth-child(2),
+.library-page__books__stars i:nth-child(3),
+.library-page__books__stars i:nth-child(4) {
+  color: yellow;
+}
+.library-page__books__stars i:last-child {
+  color: rgba(128, 128, 128, 0.1);
+}

@@ -1,0 +1,28 @@
+.library-page__author {
+  display: flex;
+  height: 130px;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.library-page__author__image {
+  display: flex;
+  width: 105px;
+  height: 130px;
+  border: 1px solid black;
+  margin-right: 25px;
+}
+.library-page__author__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 175px;
+}
+.library-page__author__title {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.library-page__author__contents {
+  display: flex;
+  font-size: 15px;
+}

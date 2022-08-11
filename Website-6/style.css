@@ -3,12 +3,14 @@
 @import "search.css";
 @import "title.css";
 @import "book-now.css";
+@import "books.css";
+@import "author.css";
 
 body {
   display: flex;
   background-color: white;
   height: 100vh;
-  width: 100%;
+  width: 340px;
 }
 .yellow-background {
   display: flex;
