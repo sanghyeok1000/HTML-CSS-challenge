@@ -1,0 +1,18 @@
+.library-page__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 60px;
+  border-radius: 25px;
+  background-color: white;
+}
+.library-page__search span:first-child {
+  display: flex;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.library-page__search i:nth-child(2) {
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.2);
+}

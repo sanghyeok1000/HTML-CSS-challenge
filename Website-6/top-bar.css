@@ -1,0 +1,23 @@
+.library-page__top-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  width: 100%;
+}
+.library-page__top-bar__bar {
+  width: 33%;
+}
+.library-page__top-bar__bar:first-child {
+  display: flex;
+}
+.library-page__top-bar__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.library-page__top-bar__bar:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
