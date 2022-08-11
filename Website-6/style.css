@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "top-bar.css";
 @import "search.css";
+@import "title.css";
+@import "book-now.css";
 
 body {
   display: flex;

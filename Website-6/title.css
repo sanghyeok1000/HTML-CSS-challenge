@@ -1,0 +1,12 @@
+.library-page__title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 800;
+}
+.first-title,
+.second-title {
+  padding: 30px 0px 20px 0px;
+}
+.third-title {
+  padding: 20px 0px;
+}
