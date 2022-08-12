@@ -3,6 +3,7 @@
 @import "left__title.css";
 @import "left__buttons.css";
 @import "left__music.css";
+@import "left__musicplayer.css";
 .left {
   display: flex;
   width: 300px;

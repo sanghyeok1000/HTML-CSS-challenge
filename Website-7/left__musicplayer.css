@@ -1,0 +1,40 @@
+.left__musicplayer {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: black;
+}
+.left__musicplayer__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+.left__musicplayer__text__title {
+  display: flex;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.left__musicplayer__text__subtitle {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+.left__musicplayer__buttons {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.left__musicplayer__buttons i:first-child {
+  display: flex;
+  margin-right: 20px;
+}
+.left__musicplayer__buttons i:last-child {
+  display: flex;
+  margin-left: 20px;
+}
