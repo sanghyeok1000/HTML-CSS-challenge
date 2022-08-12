@@ -1,0 +1,14 @@
+@import "left__top-bar.css";
+@import "left__profile.css";
+@import "left__title.css";
+@import "left__buttons.css";
+@import "left__music.css";
+.left {
+  display: flex;
+  width: 300px;
+  height: 600px;
+  flex-direction: column;
+  padding: 30px 20px 10px 20px;
+  border-radius: 25px;
+  background-color: white;
+}

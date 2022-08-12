@@ -1,0 +1,39 @@
+.left__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.left__buttons__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: black;
+}
+.left__buttons__left span:first-child {
+  display: flex;
+  color: white;
+  font-size: 15px;
+}
+.left__buttons__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: inset;
+}
+.left__buttons__right i:first-child {
+  display: flex;
+  margin-right: 5px;
+}
+.left__buttons__right span:nth-child(2) {
+  display: flex;
+  color: rgba(0, 0, 0, 0.4);
+}

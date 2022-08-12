@@ -1,0 +1,14 @@
+@import "reset.css";
+/*left*/
+@import "left.css";
+/*right*/
+@import "right.css";
+
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+  background-color: rgb(247, 247, 247);
+}
