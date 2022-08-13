@@ -1,0 +1,12 @@
+@import "right__top-bar.css";
+@import "right__music-background.css";
+@import "right__title.css";
+.right {
+  display: flex;
+  width: 300px;
+  height: 600px;
+  flex-direction: column;
+  padding: 30px 20px 10px 20px;
+  border-radius: 25px;
+  background-color: white;
+}
