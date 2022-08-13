@@ -8,6 +8,8 @@
   display: flex;
   width: 200px;
   height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 .right__music-background-box i:first-child {
   display: flex;

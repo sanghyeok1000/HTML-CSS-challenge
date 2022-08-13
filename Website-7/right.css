@@ -1,6 +1,8 @@
 @import "right__top-bar.css";
 @import "right__music-background.css";
 @import "right__title.css";
+@import "right__player-bar.css";
+@import "right__buttons.css";
 .right {
   display: flex;
   width: 300px;

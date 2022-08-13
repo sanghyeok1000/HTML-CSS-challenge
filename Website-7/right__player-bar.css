@@ -1,0 +1,31 @@
+.right__player-bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.right__player-bar__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.right__player-bar__up {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.right__player-bar__up__left {
+  display: flex;
+  width: 50%;
+}
+.right__player-bar__up__right {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+.right__player-bar__down {
+  display: flex;
+  width: 100%;
+}
